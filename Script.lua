@@ -534,9 +534,105 @@ function loadMainScript()
     end
 
     local Emotes = {
-        { name = "Around Town", id = 3576747102, icon = "rbxthumb://type=Asset&id=3576747102&w=150&h=150", price = 1000, lastupdated = 1663264200, sort = {} },
-        { name = "TWICE TAKEDOWN DANCE 2", id = 85623000473425, icon = "rbxthumb://type=Asset&id=85623000473425&w=150&h=150", price = 100, lastupdated = 1752192000, sort = {} },
-        -- ... (все остальные эмоции из вашего оригинального скрипта)
+        { name = "Jumping Cheer", id = 5895009708, icon = "rbxthumb://type=Asset&id=5895009708&w=150&h=150", price = 50, lastupdated = 1604988014, sort = {} },
+        { name = "Sleep", id = 4689362868, icon = "rbxthumb://type=Asset&id=4689362868&w=150&h=150", price = 50, lastupdated = 1663281651, sort = {} },
+        { name = "ericdoa - dance", id = 15698510244, icon = "rbxthumb://type=Asset&id=15698510244&w=150&h=150", price = 50, lastupdated = 1703220462, sort = {} },
+        { name = "Disagree", id = 4849495710, icon = "rbxthumb://type=Asset&id=4849495710&w=150&h=150", price = 50, lastupdated = 1663281649, sort = {} },
+        { name = "Happy", id = 4849499887, icon = "rbxthumb://type=Asset&id=4849499887&w=150&h=150", price = 50, lastupdated = 1663281650, sort = {} },
+        { name = "Bored", id = 5230661597, icon = "rbxthumb://type=Asset&id=5230661597&w=150&h=150", price = 50, lastupdated = 1663281649, sort = {} },
+        { name = "High Wave", id = 5915776835, icon = "rbxthumb://type=Asset&id=5915776835&w=150&h=150", price = 50, lastupdated = 1663281650, sort = {} },
+        { name = "Alo Yoga Pose - Warrior II", id = 12507106431, icon = "rbxthumb://type=Asset&id=12507106431&w=150&h=150", price = 50, lastupdated = 1677711229, sort = {} },
+        { name = "Cower", id = 4940597758, icon = "rbxthumb://type=Asset&id=4940597758&w=150&h=150", price = 50, lastupdated = 1591404331, sort = {} },
+        { name = "Wisp - air guitar", id = 17370797454, icon = "rbxthumb://type=Asset&id=17370797454&w=150&h=150", price = 50, lastupdated = 1714753031, sort = {} },
+        { name = "Alo Yoga Pose - Triangle", id = 12507120275, icon = "rbxthumb://type=Asset&id=12507120275&w=150&h=150", price = 50, lastupdated = 1677711156, sort = {} },
+        { name = "Cuco - Levitate", id = 15698511500, icon = "rbxthumb://type=Asset&id=15698511500&w=150&h=150", price = 50, lastupdated = 1708707329, sort = {} },
+        { name = "Rock n Roll", id = 15506496093, icon = "rbxthumb://type=Asset&id=15506496093&w=150&h=150", price = 50, lastupdated = 1705451701, sort = {} },
+        { name = "Shy", id = 3576717965, icon = "rbxthumb://type=Asset&id=3576717965&w=150&h=150", price = 50, lastupdated = 1663281651, sort = {} },
+        { name = "Alo Yoga Pose - Lotus Position", id = 12507097350, icon = "rbxthumb://type=Asset&id=12507097350&w=150&h=150", price = 50, lastupdated = 1677711092, sort = {} },
+        { name = "Curtsy", id = 4646306583, icon = "rbxthumb://type=Asset&id=4646306583&w=150&h=150", price = 50, lastupdated = 1663281649, sort = {} },
+        { name = "Celebrate", id = 3994127840, icon = "rbxthumb://type=Asset&id=3994127840&w=150&h=150", price = 50, lastupdated = 1663281649, sort = {} },
+        { name = "Yungblud Happier Jump", id = 15610015346, icon = "rbxthumb://type=Asset&id=15610015346&w=150&h=150", price = 50, lastupdated = 1702326238, sort = {} },
+        { name = "Baby Queen - Face Frame", id = 14353421343, icon = "rbxthumb://type=Asset&id=14353421343&w=150&h=150", price = 50, lastupdated = 1692371043, sort = {} },
+        { name = "Confused", id = 4940592718, icon = "rbxthumb://type=Asset&id=4940592718&w=150&h=150", price = 50, lastupdated = 1590791657, sort = {} },
+        { name = "Beckon", id = 5230615437, icon = "rbxthumb://type=Asset&id=5230615437&w=150&h=150", price = 50, lastupdated = 1663281649, sort = {} },
+        { name = "Secret Handshake Dance", id = 120642514156293, icon = "rbxthumb://type=Asset&id=120642514156293&w=150&h=150", price = 50, lastupdated = 1733254849, sort = {} },
+        { name = "Baby Queen - Air Guitar & Knee Slide", id = 14353417553, icon = "rbxthumb://type=Asset&id=14353417553&w=150&h=150", price = 50, lastupdated = 1692371054, sort = {} },
+        { name = "Baby Queen - Bouncy Twirl", id = 14353423348, icon = "rbxthumb://type=Asset&id=14353423348&w=150&h=150", price = 50, lastupdated = 1692371037, sort = {} },
+        { name = "Baby Queen - Strut", id = 14353425085, icon = "rbxthumb://type=Asset&id=14353425085&w=150&h=150", price = 50, lastupdated = 1692371026, sort = {} },
+        { name = "Baby Queen - Dramatic Bow", id = 14353419229, icon = "rbxthumb://type=Asset&id=14353419229&w=150&h=150", price = 50, lastupdated = 1692371048, sort = {} },
+        { name = "Sad", id = 4849502101, icon = "rbxthumb://type=Asset&id=4849502101&w=150&h=150", price = 50, lastupdated = 1663281651, sort = {} },
+        { name = "Robot M3GAN", id = 90569436057900, icon = "rbxthumb://type=Asset&id=90569436057900&w=150&h=150", price = 1, lastupdated = 1749316525, sort = {} },
+        { name = "Nicki Minaj Anaconda", id = 15571539403, icon = "rbxthumb://type=Asset&id=15571539403&w=150&h=150", price = 0, lastupdated = 1702052956, sort = {} },
+        { name = "Cha-Cha", id = 3696764866, icon = "rbxthumb://type=Asset&id=3696764866&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "BURBERRY LOLA ATTITUDE - BLOOM", id = 10147919199, icon = "rbxthumb://type=Asset&id=10147919199&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "Skadoosh Emote - Kung Fu Panda 4", id = 16371235025, icon = "rbxthumb://type=Asset&id=16371235025&w=150&h=150", price = 0, lastupdated = 1708496660, sort = {} },
+        { name = "Chicken Dance", id = 4849493309, icon = "rbxthumb://type=Asset&id=4849493309&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "BLACKPINK Don't know what to do", id = 18855609889, icon = "rbxthumb://type=Asset&id=18855609889&w=150&h=150", price = 0, lastupdated = 1723090163, sort = {} },
+        { name = "Man City Scorpion Kick", id = 13694139364, icon = "rbxthumb://type=Asset&id=13694139364&w=150&h=150", price = 0, lastupdated = 1688061827, sort = {} },
+        { name = "Gashina - SUNMI", id = 9528294735, icon = "rbxthumb://type=Asset&id=9528294735&w=150&h=150", price = 0, lastupdated = 1651539455, sort = {} },
+        { name = "Fashion Spin", id = 130046968468383, icon = "rbxthumb://type=Asset&id=130046968468383&w=150&h=150", price = 0, lastupdated = 1732653968, sort = {} },
+        { name = "Country Line Dance - Lil Nas X (LNX)", id = 5915780563, icon = "rbxthumb://type=Asset&id=5915780563&w=150&h=150", price = 0, lastupdated = 1605561299, sort = {} },
+        { name = "Sandwich Dance", id = 4390121879, icon = "rbxthumb://type=Asset&id=4390121879&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "BLACKPINK LISA Money", id = 15679957363, icon = "rbxthumb://type=Asset&id=15679957363&w=150&h=150", price = 0, lastupdated = 1703004397, sort = {} },
+        { name = "Nicki Minaj That's That Super Bass Emote", id = 15571536896, icon = "rbxthumb://type=Asset&id=15571536896&w=150&h=150", price = 0, lastupdated = 1702052899, sort = {} },
+        { name = "Salute", id = 3360689775, icon = "rbxthumb://type=Asset&id=3360689775&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "Olympic Dismount", id = 18666650035, icon = "rbxthumb://type=Asset&id=18666650035&w=150&h=150", price = 0, lastupdated = 1722014387, sort = {} },
+        { name = "MANIAC - Stray Kids", id = 11309309359, icon = "rbxthumb://type=Asset&id=11309309359&w=150&h=150", price = 0, lastupdated = 1668458448, sort = {} },
+        { name = "BLACKPINK JISOO Flower", id = 15439454888, icon = "rbxthumb://type=Asset&id=15439454888&w=150&h=150", price = 0, lastupdated = 1701124495, sort = {} },
+        { name = "Man City Bicycle Kick", id = 13422286833, icon = "rbxthumb://type=Asset&id=13422286833&w=150&h=150", price = 0, lastupdated = 1684429651, sort = {} },
+        { name = "Man City Backflip", id = 13694140956, icon = "rbxthumb://type=Asset&id=13694140956&w=150&h=150", price = 0, lastupdated = 1688061856, sort = {} },
+        { name = "BLACKPINK Pink Venom - Straight to Ya Dome", id = 14548711723, icon = "rbxthumb://type=Asset&id=14548711723&w=150&h=150", price = 0, lastupdated = 1732579764, sort = {} },
+        { name = "BLACKPINK Pink Venom - I Bring the Pain Like…", id = 14548710952, icon = "rbxthumb://type=Asset&id=14548710952&w=150&h=150", price = 0, lastupdated = 1732579780, sort = {} },
+        { name = "Stadium", id = 3360686498, icon = "rbxthumb://type=Asset&id=3360686498&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "BLACKPINK ROSÉ On The Ground", id = 15679958535, icon = "rbxthumb://type=Asset&id=15679958535&w=150&h=150", price = 0, lastupdated = 1703004441, sort = {} },
+        { name = "Bunny Hop", id = 4646296016, icon = "rbxthumb://type=Asset&id=4646296016&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "BLACKPINK Shut Down - Part 1", id = 14901369589, icon = "rbxthumb://type=Asset&id=14901369589&w=150&h=150", price = 0, lastupdated = 1732579788, sort = {} },
+        { name = "BLACKPINK Kill This Love", id = 16181843366, icon = "rbxthumb://type=Asset&id=16181843366&w=150&h=150", price = 0, lastupdated = 1706724495, sort = {} },
+        { name = "SpongeBob Dance", id = 18443271885, icon = "rbxthumb://type=Asset&id=18443271885&w=150&h=150", price = 0, lastupdated = 1720722377, sort = {} },
+        { name = "Borock's Rage", id = 3236848555, icon = "rbxthumb://type=Asset&id=3236848555&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "The Conductor - George Ezra", id = 10370926562, icon = "rbxthumb://type=Asset&id=10370926562&w=150&h=150", price = 0, lastupdated = 1658879306, sort = {} },
+        { name = "Swag Walk", id = 10478377385, icon = "rbxthumb://type=Asset&id=10478377385&w=150&h=150", price = 0, lastupdated = 1659642405, sort = {} },
+        { name = "BLACKPINK Shut Down - Part 2", id = 14901371589, icon = "rbxthumb://type=Asset&id=14901371589&w=150&h=150", price = 0, lastupdated = 1732579772, sort = {} },
+        { name = "BLACKPINK Ice Cream", id = 16181840356, icon = "rbxthumb://type=Asset&id=16181840356&w=150&h=150", price = 0, lastupdated = 1706724478, sort = {} },
+        { name = "Superhero Reveal", id = 3696759798, icon = "rbxthumb://type=Asset&id=3696759798&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "BLACKPINK Pink Venom - Get em Get em Get em", id = 14548709888, icon = "rbxthumb://type=Asset&id=14548709888&w=150&h=150", price = 0, lastupdated = 1732579749, sort = {} },
+        { name = "NBA Monster Dunk", id = 82163305721376, icon = "rbxthumb://type=Asset&id=82163305721376&w=150&h=150", price = 0, lastupdated = 1739396236, sort = {} },
+        { name = "TWICE ABCD by Nayeon", id = 18933761755, icon = "rbxthumb://type=Asset&id=18933761755&w=150&h=150", price = 0, lastupdated = 1723561480, sort = {} },
+        { name = "BURBERRY LOLA ATTITUDE - NIMBUS", id = 10147924028, icon = "rbxthumb://type=Asset&id=10147924028&w=150&h=150", price = 0, lastupdated = 1657728069, sort = {} },
+        { name = "Ud'zal's Summoning", id = 3307604888, icon = "rbxthumb://type=Asset&id=3307604888&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "TWICE Pop by Nayeon", id = 13768975574, icon = "rbxthumb://type=Asset&id=13768975574&w=150&h=150", price = 0, lastupdated = 1687549777, sort = {} },
+        { name = "TWICE Set Me Free - Dance 1", id = 12715395038, icon = "rbxthumb://type=Asset&id=12715395038&w=150&h=150", price = 0, lastupdated = 1678474186, sort = {} },
+        { name = "TWICE Set Me Free - Dance 2", id = 12715397488, icon = "rbxthumb://type=Asset&id=12715397488&w=150&h=150", price = 0, lastupdated = 1678474350, sort = {} },
+        { name = "Hyperfast 5G Dance Move", id = 9408642191, icon = "rbxthumb://type=Asset&id=9408642191&w=150&h=150", price = 0, lastupdated = 1663281650, sort = {} },
+        { name = "You can't sit with us - Sunmi", id = 9983549160, icon = "rbxthumb://type=Asset&id=9983549160&w=150&h=150", price = 0, lastupdated = 1657679637, sort = {} },
+        { name = "Hype Dance", id = 3696757129, icon = "rbxthumb://type=Asset&id=3696757129&w=150&h=150", price = 0, lastupdated = 1663281650, sort = {} },
+        { name = "BLACKPINK - How You Like That", id = 16874596971, icon = "rbxthumb://type=Asset&id=16874596971&w=150&h=150", price = 0, lastupdated = 1711414303, sort = {} },
+        { name = "BLACKPINK - Lovesick Girls", id = 16874600526, icon = "rbxthumb://type=Asset&id=16874600526&w=150&h=150", price = 0, lastupdated = 1711414329, sort = {} },
+        { name = "TWICE Like Ooh-Ahh", id = 14124050904, icon = "rbxthumb://type=Asset&id=14124050904&w=150&h=150", price = 0, lastupdated = 1689868872, sort = {} },
+        { name = "Heisman Pose", id = 3696763549, icon = "rbxthumb://type=Asset&id=3696763549&w=150&h=150", price = 0, lastupdated = 1663281650, sort = {} },
+        { name = "BLACKPINK As If It's Your Last", id = 18855603653, icon = "rbxthumb://type=Asset&id=18855603653&w=150&h=150", price = 0, lastupdated = 1723090177, sort = {} },
+        { name = "TWICE Moonlight Sunrise ", id = 12715393154, icon = "rbxthumb://type=Asset&id=12715393154&w=150&h=150", price = 0, lastupdated = 1678474249, sort = {} },
+        { name = "TWICE Fancy", id = 13520623514, icon = "rbxthumb://type=Asset&id=13520623514&w=150&h=150", price = 0, lastupdated = 1685112803, sort = {} },
+        { name = "Point2", id = 3576823880, icon = "rbxthumb://type=Asset&id=3576823880&w=150&h=150", price = 0, lastupdated = 1663281650, sort = {} },
+        { name = "BURBERRY LOLA ATTITUDE - GEM", id = 10147916560, icon = "rbxthumb://type=Asset&id=10147916560&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "Vroom Vroom", id = 18526410572, icon = "rbxthumb://type=Asset&id=18526410572&w=150&h=150", price = 0, lastupdated = 1721931643, sort = {} },
+        { name = "Hwaiting (화이팅)", id = 9528291779, icon = "rbxthumb://type=Asset&id=9528291779&w=150&h=150", price = 0, lastupdated = 1663281650, sort = {} },
+        { name = "BLACKPINK JENNIE You and Me", id = 15439457146, icon = "rbxthumb://type=Asset&id=15439457146&w=150&h=150", price = 0, lastupdated = 1701124471, sort = {} },
+        { name = "Tilt", id = 3360692915, icon = "rbxthumb://type=Asset&id=3360692915&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "Applaud", id = 5915779043, icon = "rbxthumb://type=Asset&id=5915779043&w=150&h=150", price = 0, lastupdated = 1663264200, sort = {} },
+        { name = "BLACKPINK DDU-DU DDU-DU", id = 16553262614, icon = "rbxthumb://type=Asset&id=16553262614&w=150&h=150", price = 0, lastupdated = 1709100790, sort = {} },
+        { name = "BURBERRY LOLA ATTITUDE - HYDRO", id = 10147926081, icon = "rbxthumb://type=Asset&id=10147926081&w=150&h=150", price = 0, lastupdated = 1657814503, sort = {} },
+        { name = "BURBERRY LOLA ATTITUDE - REFLEX", id = 10147921916, icon = "rbxthumb://type=Asset&id=10147921916&w=150&h=150", price = 0, lastupdated = 1663281649, sort = {} },
+        { name = "Air Guitar", id = 3696761354, icon = "rbxthumb://type=Asset&id=3696761354&w=150&h=150", price = 0, lastupdated = 1663264200, sort = {} },
+        { name = "Annyeong (안녕)", id = 9528286240, icon = "rbxthumb://type=Asset&id=9528286240&w=150&h=150", price = 0, lastupdated = 1651539455, sort = {} },
+        { name = "BLACKPINK Boombayah Emote", id = 16553259683, icon = "rbxthumb://type=Asset&id=16553259683&w=150&h=150", price = 0, lastupdated = 1709339907, sort = {} },
+        { name = "Victory - 24kGoldn", id = 9178397781, icon = "rbxthumb://type=Asset&id=9178397781&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
+        { name = "Hello", id = 3576686446, icon = "rbxthumb://type=Asset&id=3576686446&w=150&h=150", price = 0, lastupdated = 1663281650, sort = {} },
+        { name = "Vans Ollie", id = 18305539673, icon = "rbxthumb://type=Asset&id=18305539673&w=150&h=150", price = 0, lastupdated = 1719938530, sort = {} },
+        { name = "TWICE Strategy", id = 106862678450011, icon = "rbxthumb://type=Asset&id=106862678450011&w=150&h=150", price = 0, lastupdated = 1734540744, sort = {} },
+        { name = "TWICE The Feels", id = 12874468267, icon = "rbxthumb://type=Asset&id=12874468267&w=150&h=150", price = 0, lastupdated = 1679673336, sort = {} },
+        { name = "TWICE What Is Love", id = 13344121112, icon = "rbxthumb://type=Asset&id=13344121112&w=150&h=150", price = 0, lastupdated = 1683906913, sort = {} },
+        { name = "Shrug", id = 3576968026, icon = "rbxthumb://type=Asset&id=3576968026&w=150&h=150", price = 0, lastupdated = 1663281651, sort = {} },
     }
 
     local function addEmote(name, id, price, date)
@@ -569,8 +665,103 @@ function loadMainScript()
     -- Добавление новых эмоций
     addEmote("PARROT PARTY DANCE", 121067808279598, 39, "Aug 08, 2025")
     addEmote("Dance n' Prance", 99031916674986, 39, "Aug 08, 2025")
-    -- ... (все остальные новые эмоции)
-
+    addEmote("R15 Death (Accurate)", 114899970878842, 39, "Aug 08, 2025")
+    addEmote("Wally West", 133948663586698, 39, "Aug 08, 2025")
+    addEmote("Take The L", 123159156696507, 39, "Aug 08, 2025")
+    addEmote("Xaviersobased", 131763631172236, 39, "Aug 09, 2025")
+    addEmote("Belly Dancing", 131939729732240, 39, "Aug 08, 2025")
+    addEmote("RAT DANCE", 133461102795137, 78, "Aug 08, 2025")
+    addEmote("CaramellDansen", 93105950995997, 39, "Aug 08, 2025")
+    addEmote("Biblically Accurate", 133596366979822, 39, "Aug 08, 2025")
+    addEmote("Rambunctious", 108128682361404, 39, "Aug 08, 2025")
+    addEmote("Die Lit", 121001502815813, 39, "Aug 08, 2025")
+    addEmote("Nyan Nyan!", 73796726960568, 39, "Aug 08, 2025")
+    addEmote("Teto Territory", 114428584463004, 39, "Aug 08, 2025")
+    addEmote("Skibidi", 124828909173982, 39, "Aug 08, 2025")
+    addEmote("Chronoshift", 92600655160976, 39, "Aug 08, 2025")
+    addEmote("Floating on Clouds", 111426928948833, 39, "Aug 08, 2025")
+    addEmote("Jersey Joe", 134149640725489, 39, "Aug 08, 2025")
+    addEmote("Virtual Insanity", 83261816934732, 39, "Aug 09, 2025")
+    addEmote("Doodle Dance", 107091254142209, 39, "Aug 08, 2025")
+    addEmote("Subject 3", 83732367439808, 39, "Aug 08, 2025")
+    addEmote("Club Penguin", 98099211500155, 39, "Aug 09, 2025")
+    addEmote("Kazotsky", 97629500912487, 39, "Aug 08, 2025")
+    addEmote("Miku Dance", 117734400993750, 39, "Aug 08, 2025")
+    addEmote("Deltarune - Tenna Swing", 103139492736941, 39, "Aug 08, 2025")
+    addEmote("Hakari Dance", 80270168146449, 39, "Aug 08, 2025")
+    addEmote("Addendum Dance [R6]", 134442882516163, 39, "Aug 09, 2025")
+    addEmote("Gangnam Style", 77205409178702, 39, "Aug 08, 2025")
+    addEmote("Push-Up", 117922227854118, 39, "Aug 09, 2025")
+    addEmote("Split", 98522218962476, 39, "Aug 08, 2025")
+    addEmote("PROXIMA", 81390693780805, 39, "Aug 08, 2025")
+    addEmote("HeadBanging", 87447252507832, 39, "Aug 08, 2025")
+    addEmote("Assumptions", 127507691649322, 39, "Aug 08, 2025")
+    addEmote("Jumpstyle", 99563839802389, 39, "Aug 08, 2025")
+    addEmote("Flopping Fish", 133142324349281, 39, "Aug 08, 2025")
+    addEmote("Kicking Feet Sit", 78758922757947, 39, "Aug 08, 2025")
+    addEmote("Fancy Feets", 124512151372711, 39, "Aug 08, 2025")
+    addEmote("Cute Sit", 90244178386698, 39, "Aug 08, 2025")
+    addEmote("Absolute Cinema", 97258018304125, 39, "Aug 08, 2025")
+    addEmote("Bubbly Sit", 112758073578333, 39, "Aug 08, 2025")
+    addEmote("Become A Car", 131544122623505, 39, "Aug 08, 2025")
+    addEmote("Hiding Human Box", 124935873390035, 39, "Aug 08, 2025")
+    addEmote("Magical Pose", 135489824748823, 39, "Aug 08, 2025")
+    addEmote("Griddy", 116065653184749, 39, "Aug 08, 2025")
+    addEmote("Spy Laugh tf2", 137720205462499, 39, "Aug 10, 2025") 
+    addEmote("Head Juggling", 82224981519682, 39, "Aug 09, 2025")
+    addEmote("Omniman Think", 70560694892323, 39, "Aug 09, 2025")
+    addEmote("Ishowspeed Shake Dancing", 138386881919239, 39, "Aug 09, 2025")
+    addEmote("Wait", 106569806588657, 39, "Aug 09, 2025")
+    addEmote("Shinji Pose", 97629500912487, 39, "Aug 09, 2025")
+    addEmote("Come At Me [ R6 ]", 107758370940834, 39, "Aug 09, 2025")
+    addEmote("Oscillating Fan", 71493999860590, 39, "Aug 09, 2025")
+    addEmote("Locked In", 110145155419199, 39, "Aug 10, 2025")
+    addEmote("BirdBrain", 105730788757021, 39, "Aug 10, 2025")
+    addEmote("Hakari (FULL)", 71056659089869, 39, "Aug 09, 2025")
+    addEmote("Strongest Stance", 80146495484274, 39, "Aug 09, 2025")
+    addEmote("Cat Things", 131193808160056, 39, "Aug 09, 2025")
+    addEmote("Doggy Things", 105206768873249, 39, "Aug 09, 2025")
+    addEmote("Wally West Edit", 72247161810866, 39, "Aug 09, 2025")
+    addEmote("24 Hour Cinderella", 122972776209997, 39, "Aug 09, 2025")
+    addEmote("Rafa Polinesio Baile", 133047022806044, 39, "Aug 09, 2025")
+    addEmote("Mesmerizer", 92707348383277, 39, "Aug 09, 2025")
+    addEmote("Soda Pop", 132718205548925, 39, "Aug 10, 2025")
+    addEmote("Best Mates", 73271793399763, 39, "Aug 10, 2025")
+    addEmote("Garou", 86200585395371, 39, "Aug 09, 2025")
+    addEmote("Dio Pose", 76736978166708, 39, "Aug 09, 2025")
+    addEmote("Twerkstuff", 133246132766663, 39, "Aug 09, 2025")
+    addEmote("Golden Freddy", 122463450997235, 39, "Aug 09, 2025")
+    addEmote("Noclip, Speed", 137006085779408, 39, "Aug 09, 2025")
+    addEmote("Static [Hatsune Miku]", 84534006084837, 39, "Aug 09, 2025")
+    addEmote("GOALL", 78830825254717, 39, "Aug 09, 2025")
+    addEmote("Lethal Dance", 77108921633993, 39, "Aug 09, 2025")
+    addEmote("Plug Walk", 100359724990859, 39, "Aug 09, 2025")
+    addEmote("At Ease", 76993139936388, 39, "Aug 09, 2025")
+    addEmote("Conga", 97547955535086, 39, "Aug 09, 2025")
+    addEmote("Barrel", 84511772437190, 39, "Aug 08, 2025")
+    addEmote("Helicopter", 84555218084038, 39, "Aug 08, 2025")
+    addEmote("Aura Farm Boat", 88042995626011, 39, "Aug 09, 2025")
+    addEmote("Prince Of Egypt", 134063402217274, 39, "Aug 08, 2025")
+    addEmote("Jersey Joe2", 115782117564871, 39, "Aug 09, 2025")
+    addEmote("Deltarune - Tenna Dance", 73715378215546, 39, "Aug 08, 2025")
+    addEmote("California Girl", 132074413582912, 39, "Aug 08, 2025")
+    addEmote("Default Dance", 80877772569772, 39, "Aug 08, 2025")
+    addEmote("Shocked meme", 129501229484294, 39, "Aug 08, 2025")
+    addEmote("Family Guy", 78459263478161, 39, "Aug 08, 2025")
+    addEmote("Tank Transformation", 132382355371060, 39, "Aug 08, 2025")
+    addEmote("Insanity", 129843344424281, 39, "Aug 08, 2025")
+    addEmote("Honored One", 121643381580730, 39, "Aug 08, 2025")
+    addEmote("Sukuna", 91839607010745, 39, "Aug 08, 2025")
+    addEmote("Dropper", 130358790702800, 39, "Aug 08, 2025")
+    addEmote("Be Not Afraid", 70635223083942, 39, "Aug 08, 2025")
+    addEmote("Macarena", 91274761264433, 39, "Aug 08, 2025")
+    addEmote("Helicopter2", 119431985170060, 39, "Aug 08, 2025")
+    addEmote("RONALDO", 97547486465713, 39, "Aug 08, 2025")
+    addEmote("Nya Anime Dance", 126647057611522, 39, "Aug 08, 2025")
+    addEmote("Do that thang", 113772829398170, 39, "Aug 08, 2025")
+    addEmote("Squat?", 95441477641149, 39, "Aug 08, 2025")
+    addEmote("Slickback", 103789826265487, 39, "Aug 08, 2025")
+    
     local function EmotesLoaded()
         for i, loaded in pairs(LoadedEmotes) do
             if not loaded then
