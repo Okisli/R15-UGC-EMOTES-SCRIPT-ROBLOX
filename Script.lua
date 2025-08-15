@@ -7,7 +7,7 @@ end
 getgenv().Emotesbruh = true
 
 -- Key system
-local correctKey = "TGBR65K"
+local correctKey = "Skibidi52"
 local keyGui = Instance.new("ScreenGui")
 keyGui.Name = "KeyGui"
 keyGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -24,7 +24,7 @@ corner.CornerRadius = UDim.new(0, 8)
 corner.Parent = mainFrame
 
 local title = Instance.new("TextLabel")
-title.Text = "Введите ключ доступа"
+title.Text = "Enter the key..."
 title.Size = UDim2.new(1, 0, 0, 40)
 title.Position = UDim2.new(0, 0, 0, 10)
 title.BackgroundTransparency = 1
@@ -38,7 +38,7 @@ inputBox.Size = UDim2.new(0.8, 0, 0, 40)
 inputBox.Position = UDim2.new(0.1, 0, 0.3, 0)
 inputBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 inputBox.TextColor3 = Color3.new(1, 1, 1)
-inputBox.PlaceholderText = "Введите ключ..."
+inputBox.PlaceholderText = "Key..."
 inputBox.Font = Enum.Font.Gotham
 inputBox.TextSize = 16
 inputBox.Parent = mainFrame
@@ -52,7 +52,7 @@ checkButton.Size = UDim2.new(0.8, 0, 0, 40)
 checkButton.Position = UDim2.new(0.1, 0, 0.55, 0)
 checkButton.BackgroundColor3 = Color3.fromRGB(0, 120, 215)
 checkButton.TextColor3 = Color3.new(1, 1, 1)
-checkButton.Text = "Проверить"
+checkButton.Text = "Check key"
 checkButton.Font = Enum.Font.GothamBold
 checkButton.TextSize = 16
 checkButton.Parent = mainFrame
@@ -66,7 +66,7 @@ getKeyButton.Size = UDim2.new(0.8, 0, 0, 30)
 getKeyButton.Position = UDim2.new(0.1, 0, 0.8, 0)
 getKeyButton.BackgroundTransparency = 1
 getKeyButton.TextColor3 = Color3.fromRGB(0, 162, 255)
-getKeyButton.Text = "Получить ключ"
+getKeyButton.Text = "Get key"
 getKeyButton.Font = Enum.Font.Gotham
 getKeyButton.TextSize = 14
 getKeyButton.Parent = mainFrame
@@ -97,7 +97,7 @@ checkButton.MouseButton1Click:Connect(function()
         keyGui:Destroy()
         loadMainScript()
     else
-        messageLabel.Text = "Неверный ключ!"
+        messageLabel.Text = "invalid key!"
         task.wait(2)
         messageLabel.Text = ""
     end
@@ -106,7 +106,7 @@ end)
 getKeyButton.MouseButton1Click:Connect(function()
     setclipboard("https://t.me/owner_scriptsbot")
     messageLabel.TextColor3 = Color3.fromRGB(50, 255, 50)
-    messageLabel.Text = "Ссылка скопирована!"
+    messageLabel.Text = "the link is copied !"
     task.wait(2)
     messageLabel.Text = ""
     messageLabel.TextColor3 = Color3.fromRGB(255, 50, 50)
