@@ -7,7 +7,7 @@ end
 getgenv().Emotesbruh = true
 
 -- Key system
-local correctKey = "Skibidi52"
+local correctKey = "Yellow69"
 local keyGui = Instance.new("ScreenGui")
 keyGui.Name = "KeyGui"
 keyGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
