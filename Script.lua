@@ -24,7 +24,7 @@ corner.CornerRadius = UDim.new(0, 8)
 corner.Parent = mainFrame
 
 local title = Instance.new("TextLabel")
-title.Text = "Enter the key..."
+title.Text = "key 'OwnerHub'"
 title.Size = UDim2.new(1, 0, 0, 40)
 title.Position = UDim2.new(0, 0, 0, 10)
 title.BackgroundTransparency = 1
@@ -38,7 +38,7 @@ inputBox.Size = UDim2.new(0.8, 0, 0, 40)
 inputBox.Position = UDim2.new(0.1, 0, 0.3, 0)
 inputBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 inputBox.TextColor3 = Color3.new(1, 1, 1)
-inputBox.PlaceholderText = "Key..."
+inputBox.PlaceholderText = "Key 'OwnerHub'"
 inputBox.Font = Enum.Font.Gotham
 inputBox.TextSize = 16
 inputBox.Parent = mainFrame
