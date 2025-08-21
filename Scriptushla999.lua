@@ -1,4 +1,4 @@
--- creator MyNicknameIsOwner oh my god
+-- creator MyNicknameIsOwner oh my god)
 -- telegram @owner_scripts
 
 if getgenv().Emotesbruh == true then
